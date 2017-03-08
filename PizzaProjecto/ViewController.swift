@@ -24,7 +24,12 @@ class ViewController: UIViewController {
 }
 
 class Pizza {
-    var topping : String
+    var topping : [String]
     var size : String
-    var 
+    var crust : String
+    var cheese : String
+    
+    init(topping: [String], size: String, crust: String, cheese: String) {
+        <#statements#>
+    }
 }

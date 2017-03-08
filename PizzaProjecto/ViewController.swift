@@ -8,7 +8,7 @@
 
 import UIKit
 protocol meowPizza {
-    func pizzaTime(pizztime : Int)
+    func pizzaTime(pizztime : [Pizza]) -> Int
     func addPizza(amountpiz: Int)
 }
 
